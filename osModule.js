@@ -1,6 +1,6 @@
 const os = require('node:os');
 
-function convertMb(bytes) {
+function convertMb(bytes) { // Función para convertir de bytes a KB y luego a MB.
     return bytes / 1024 / 1024;
 }
 
@@ -28,7 +28,7 @@ Memoria Libre: ${freeMem.toFixed(2)} MB
 
 
 
-module.exports = osModule
+module.exports = osModule;
 
 // DATA 
 
